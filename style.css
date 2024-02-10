@@ -1,0 +1,50 @@
+body{
+    font-family: 'poppins';
+
+}
+
+.header{
+    min-height: 150px;
+    background-color: black;
+    font-weight: 700;
+}
+.brand{
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+}
+.nav-link{
+    font-weight: 300;
+    font-size: 16px;
+}
+.carousel-content{
+    min-height: 600px;
+    background-image: url('./img/bg-banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-content h2{
+    font-size: 16px;
+}
+.carousel-control-next, .carousel-control-prev{
+    width: 10%;
+}
+.btn{
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+
+.about-us{
+    line-height: 40px;
+}
+
+.footer{
+    background-color: black;
+    min-height: 460px;
+}
+footer p{
+    line-height: 40px;
+}
